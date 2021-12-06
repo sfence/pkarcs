@@ -5,113 +5,133 @@ pkarcs_doors3 = {}
 -- Register Door Nodes
 pkarcs_doors3.door = {
 	{
-		"acacia_wood",
-		"Acacia Wood",
-		{choppy = 2, door = 1},
-		default.node_sound_wood_defaults(),
-		"doors_door",
-		{name = "pkarcs_doors3_acacia.png", backface_culling = true},
-		"default:acacia_wood"
-	},
-
-	{
-		"aspen_wood",
-		"Aspen Wood",
-		{choppy = 2, door = 1},
-		default.node_sound_wood_defaults(),
-		"doors_door",
-		{name = "pkarcs_doors3_aspen.png", backface_culling = true},
-		"default:aspen_wood"
-	},
-
-	{
-		"junglewood",
-		"Junglewood",
-		{choppy = 2, door = 1},
-		default.node_sound_wood_defaults(),
-		"doors_door",
-		{name = "pkarcs_doors3_junglewood.png", backface_culling = true},
-		"default:junglewood"
-	},
-
-	{
-		"pine_wood",
-		"Pine Wood",
-		{choppy = 2, door = 1},
-		default.node_sound_wood_defaults(),
-		"doors_door",
-		{name = "pkarcs_doors3_pine.png", backface_culling = true},
-		"default:pine_wood"
-	},
-
-	{
 		"wood",
-		"Wood",
+		"Temperate Wood",
 		{choppy = 2, door = 1},
-		default.node_sound_wood_defaults(),
+		hades_sounds.node_sound_wood_defaults(),
 		"doors_door",
-		{name = "pkarcs_doors3_wood.png", backface_culling = true},
-		"default:wood"
+		{name = "pkarcs_doors_wood.png", backface_culling = true},
+		"hades_trees:wood"
+	},
+
+	{
+		"pale_wood",
+		"Pale Wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_pale.png", backface_culling = true},
+		"hades_trees:pale_wood"
+	},
+
+	{
+		"cream_wood",
+		"Cream Wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_cream.png", backface_culling = true},
+		"hades_trees:cream_wood"
+	},
+
+	{
+		"lush_wood",
+		"Lush Wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_lush.png", backface_culling = true},
+		"hades_trees:lush_wood"
+	},
+
+	{
+		"jungle_wood",
+		"Jungle_wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_junglewood.png", backface_culling = true},
+		"hades_trees:jungle_wood"
+	},
+	--[[
+	{
+		"charred_wood",
+		"Charred Wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_charred.png", backface_culling = true},
+		"hades_trees:charred_wood"
+	},
+	--]]
+	{
+		"canvas_wood",
+		"Canvas Wood",
+		{choppy = 2, door = 1},
+		hades_sounds.node_sound_wood_defaults(),
+		"doors_door",
+		{name = "pkarcs_doors_canvas.png", backface_culling = true},
+		"hades_trees:canvas_wood"
 	},
 
 	{
 		"bronze",
 		"Bronze",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_bronze.png", backface_culling = true},
-		"default:bronzeblock"
+		{name = "pkarcs_doors_bronze.png", backface_culling = true},
+		"hades_core:bronzeblock"
 	},
 
 	{
 		"copper",
 		"Copper",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_copper.png", backface_culling = true},
-		"default:copperblock"
+		{name = "pkarcs_doors_copper.png", backface_culling = true},
+		"hades_core:copperblock"
 	},
 
 	{
 		"iron",
 		"Iron",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_iron.png", backface_culling = true},
-		"default:iron_lump"
+		{name = "pkarcs_doors_iron.png", backface_culling = true},
+		"hades_core:iron_lump"
 	},
 
 	{
 		"steel",
 		"Steel",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_steel.png", backface_culling = true},
-		"default:steelblock"
+		{name = "pkarcs_doors_steel.png", backface_culling = true},
+		"hades_core:steelblock"
 	},
 
 	{
 		"tin",
 		"Tin",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_tin.png", backface_culling = true},
-		"default:tinblock"
+		{name = "pkarcs_doors_tin.png", backface_culling = true},
+		"hades_core:tinblock"
 	},
 
 	{
 		"bar",
 		"Bar",
 		{cracky = 1, level = 2, door = 1},
-		default.node_sound_metal_defaults(),
+		hades_sounds.node_sound_metal_defaults(),
 		"doors_steel_door",
-		{name = "pkarcs_doors3_bar.png", backface_culling = true},
-		"xpanes:bar_flat"
+		{name = "pkarcs_doors_bar.png", backface_culling = true},
+		"hades_xpanes:bar_flat"
 	},
 }
 
@@ -147,8 +167,8 @@ for _, row in ipairs(pkarcs_doors3.door) do
 
 	local Ldoor_def = {
 		description = desc.. " Arch Door3 (left)",
-		inventory_image = "pkarcs_doors3_" ..name.. "_item.png",
-		wield_image = "pkarcs_doors3_" ..name.. "_item.png",
+		--inventory_image = "pkarcs_doors3_" ..name.. "_item.png",
+		--wield_image = "pkarcs_doors3_" ..name.. "_item.png",
 		drawtype = "mesh",
 		mesh = "pkarcs_doors3_L.obj",
 		tiles = {door_tiles},
@@ -236,8 +256,8 @@ for _, row in ipairs(pkarcs_doors3.door) do
 
 	local Rdoor_def = {
 		description = desc.. " Arch Door3 (right)",
-		inventory_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
-		wield_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
+		--inventory_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
+		--wield_image = "pkarcs_doors3_" ..name.. "_item.png^[transformFXX",
 		drawtype = "mesh",
 		mesh = "pkarcs_doors3_R.obj",
 		tiles = {door_tiles},

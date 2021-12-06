@@ -306,39 +306,46 @@ end
 
 -- make arcs for all default stone and wood nodes
 
-pkarcs.register_node("default:cobble")
-pkarcs.register_node("default:mossycobble")
-pkarcs.register_node("default:desert_cobble")
+pkarcs.register_node("hades_core:cobble")
+pkarcs.register_node("hades_core:mossycobble")
+pkarcs.register_node("hades_core:desert_cobble")
 
-pkarcs.register_node("default:stone")
-pkarcs.register_node("default:stonebrick")
-pkarcs.register_node("default:stone_block")
+pkarcs.register_node("hades_core:stone")
+pkarcs.register_node("hades_core:stonebrick")
+pkarcs.register_node("hades_core:stone_block")
 
-pkarcs.register_node("default:desert_stone")
-pkarcs.register_node("default:desert_stonebrick")
-pkarcs.register_node("default:desert_stone_block")
+pkarcs.register_node("hades_core:stone_baked")
+pkarcs.register_node("hades_core:stonebrick_baked")
+pkarcs.register_node("hades_core:stone_block_baked")
 
-pkarcs.register_node("default:desert_sandstone")
-pkarcs.register_node("default:desert_sandstone_block")
-pkarcs.register_node("default:desert_sandstone_brick")
+pkarcs.register_node("hades_core:sandstone")
+pkarcs.register_node("hades_core:sandstone_block")
+pkarcs.register_node("hades_core:sandstone_brick")
 
-pkarcs.register_node("default:silver_sandstone")
-pkarcs.register_node("default:silver_sandstone_block")
-pkarcs.register_node("default:silver_sandstone_brick")
+pkarcs.register_node("hades_core:sandstone_volcanic")
+pkarcs.register_node("hades_core:sandstone_volcanic_block")
+pkarcs.register_node("hades_core:sandstone_volcanic_brick")
 
-pkarcs.register_node("default:sandstone")
-pkarcs.register_node("default:sandstonebrick")
-pkarcs.register_node("default:sandstone_block")
+pkarcs.register_node("hades_core:brick")
 
-pkarcs.register_node("default:brick")
+pkarcs.register_node("hades_core:obsidian")
+pkarcs.register_node("hades_core:obsidianbrick")
+pkarcs.register_node("hades_core:obsidian_block")
 
-pkarcs.register_node("default:obsidian")
-pkarcs.register_node("default:obsidianbrick")
-pkarcs.register_node("default:obsidian_block")
+pkarcs.register_node("hades_trees:wood")
+pkarcs.register_node("hades_trees:charred_wood")
+pkarcs.register_node("hades_trees:colwood_uncolored")
+pkarcs.register_node("hades_trees:cream_wood")
+pkarcs.register_node("hades_trees:jungle_wood")
+pkarcs.register_node("hades_trees:lush_wood")
+pkarcs.register_node("hades_trees:pale_wood")
 
-pkarcs.register_node("default:wood")
-pkarcs.register_node("default:junglewood")
-pkarcs.register_node("default:pine_wood")
-pkarcs.register_node("default:acacia_wood")
-pkarcs.register_node("default:aspen_wood")
+if minetest.get_modpath("hades_default") then
+  pkarcs.register_node("hades_default:desert_sandstone")
+  pkarcs.register_node("hades_default:desert_sandstone_block")
+  pkarcs.register_node("hades_default:desert_sandstone_brick")
 
+  pkarcs.register_node("hades_default:silver_sandstone")
+  pkarcs.register_node("hades_default:silver_sandstone_block")
+  pkarcs.register_node("hades_default:silver_sandstone_brick")
+end

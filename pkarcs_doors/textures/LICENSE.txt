@@ -24,7 +24,15 @@
 * pkarcs_doors_wood.png
 * pkarcs_doors_wood_item.png
 
-** All wooden arch door textures are derived from textures in minetest_game 'default' mod **
+(c) SFENCE 2021
+        CC BY-SA 4.0
+
+* pkarcs_doors_canvas.png
+* pkarcs_doors_cream.png
+* pkarcs_doors_lush.png
+* pkarcs_doors_pale.png
+
+** All wooden arch door textures are derived from textures in minetest_game 'default' mod and Hades Revisited hades_trees mod **
 =============================== See license in that folder =================================
 
 ** All sounds are provided by minetest_game 'doors' mod **
