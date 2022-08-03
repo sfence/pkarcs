@@ -308,7 +308,7 @@ end
 
 pkarcs.register_node("hades_core:cobble")
 pkarcs.register_node("hades_core:mossycobble")
-pkarcs.register_node("hades_core:desert_cobble")
+pkarcs.register_node("hades_core:cobble_baked")
 
 pkarcs.register_node("hades_core:stone")
 pkarcs.register_node("hades_core:stonebrick")
@@ -319,11 +319,11 @@ pkarcs.register_node("hades_core:stonebrick_baked")
 pkarcs.register_node("hades_core:stone_block_baked")
 
 pkarcs.register_node("hades_core:sandstone")
-pkarcs.register_node("hades_core:sandstone_block")
-pkarcs.register_node("hades_core:sandstone_brick")
+pkarcs.register_node("hades_core:cobble_sandstone")
+pkarcs.register_node("hades_core:sandstonebrick")
 
 pkarcs.register_node("hades_core:sandstone_volcanic")
-pkarcs.register_node("hades_core:sandstone_volcanic_block")
+pkarcs.register_node("hades_core:cobble_sandstone_volcanic")
 pkarcs.register_node("hades_core:sandstone_volcanic_brick")
 
 pkarcs.register_node("hades_core:brick")
